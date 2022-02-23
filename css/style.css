@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Roboto Slab', serif;  
+}
+*{
+    font-family:'Kufam', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    width: 300px;
+    margin: auto;
+}
+ /* Portada */
+.container_home{
+    width: 100%;
+    background: rgb(14,59,70);
+    background: radial-gradient(circle, rgba(14,59,70,1) 0%, rgba(33,32,32,1) 69%, rgba(50,50,50,1) 100%);
+    z-index: -1;
+    height: 850px;
+}
+.container_1{
+    display: flex;
+    width: 100%;
+}
+.texto_principal{
+    text-align: center;
+    width: 50%;
+    padding-top: 300px;
+    color: rgb(243, 243, 243);
+}
+.texto_principal h1{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.texto_principal h2{
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+.container_redes{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    height: 48px;
+}
+.redes-sociales{
+    margin: auto;
+    width: 120px;
+    height: 30px;
+    list-style: none;
+}
+.redes-sociales li{
+    margin: auto;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    background-color: transparent;
+    border: solid transparent 2px;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 2px;
+    box-shadow: 10px 9px 29px -8px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 9px 29px -8px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 9px 29px -8px rgba(0,0,0,0.75);
+}
+.redes-sociales li:hover{
+    transition: 1s;
+    background-color: #ECB365;
+}
+strong{
+    color: #ECB365
+}
+.perfil-img{
+    width: 50%;
+    height: 600px;
+    padding-left: 200px;
+    padding-top: 300px;
+}
+.perfil-img img{
+    width: 270px;
+    height: 380px;
+    position: relative;
+    z-index: 1;
+}
+.perfil-img:after{
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-bottom: 7px solid #ECB365;
+    border-right: 7px solid #ECB365;
+    right: 230px;
+    bottom: 80px;
+}
+.perfil-img:before{
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-top: 7px solid #ECB365;
+    border-left: 7px solid #ECB365;
+    left: 910px;
+    top: 240px;
+}
+/* barra de navegacion */
+.header {
+    background-color: #f1f1f1;
+    padding: 25px;
+    text-align: center;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #101111;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+    z-index: 2;
+}
+#navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 59px 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#navbar a:hover {
+    background-color: #3b3b3b;
+    color:#ECB365;
+} 
+#navbar a.active {
+    background-color: #ECB365;
+    color: white;
+} 
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+/*about me*/
+.container_aboutme{
+    width: 95%;
+    margin: auto;
+    height: 900px;
+}
+.aboutme{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.aboutme h2{
+    font-size: 2rem;
+}
+.aboutme p{
+    font-size: 1rem;
+}
+.aboutme2{
+    width: 100%;
+    display: flex;
+}
+.aboutme2 h3{
+    font-size: 2rem;
+}
+.aboutme2 p{
+    font-size: 1rem;
+}
+.whyimg{
+    height: 400px;
+    width: 40%;
+    text-align: center;
+}
+.why{
+    font-size: 2rem;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.curriculum{
+    padding: 10px 25px;
+    font: 0.5rem;
+    color: white;
+    background-color:#ECB365;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.curriculum:hover{
+    transform: scale(1.05);
+}
+/*skills*/
+.container_skills{
+    width: 95%;
+    height: 900px;
+    background-color: #ebe9e9;
+    margin: auto;
+}
+.titulo_skill h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    display: flex;
+}
+.skills ul{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+.skills ul li{
+    text-align: center;
+    list-style: none;
+    height: 98px;
+    width: 98px;
+    background-color: rgb(255, 255, 255);
+}
+.skills ul li img{
+    padding-left: -10px;
+}
