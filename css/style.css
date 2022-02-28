@@ -232,3 +232,57 @@ strong{
 .skills ul li img{
     padding-left: -10px;
 }
+/*Footer*/
+.container_footer{
+    margin: auto;
+    width: 95%;
+    background-color: #ffffff;
+}
+.titulo_contact h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+.titulo_contact h4{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    margin-top: 30px;
+}
+.form input{
+    background-color: #101111;
+    padding: 1.5em;
+    color: #101111;
+}
+.form textarea{
+    height: 150px;
+    background: none;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+.form button{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    right: -29%;
+}
+.form .btn_form{
+    text-align: center;
+    background-color:#ECB365;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px 10px;
+    color: white;
+}
