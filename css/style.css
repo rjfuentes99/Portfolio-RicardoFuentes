@@ -85,26 +85,6 @@ strong{
     position: relative;
     z-index: 1;
 }
-.perfil-img:after{
-    content: "";
-    position: absolute;
-    height: 75px;
-    width: 75px;
-    border-bottom: 7px solid #ECB365;
-    border-right: 7px solid #ECB365;
-    right: 230px;
-    bottom: 80px;
-}
-.perfil-img:before{
-    content: "";
-    position: absolute;
-    height: 75px;
-    width: 75px;
-    border-top: 7px solid #ECB365;
-    border-left: 7px solid #ECB365;
-    left: 910px;
-    top: 240px;
-}
 /* barra de navegacion */
 .header {
     background-color: #f1f1f1;
